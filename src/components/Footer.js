@@ -7,15 +7,13 @@ const Footer = () => {
             <div style={styles.container}>
                 <p style={styles.text}>© {new Date().getFullYear()} MP Vinay Reddy. All Rights Reserved.</p>
                 <div style={styles.socials}>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={styles.link}>
+                    <a href="https://www.linkedin.com/in/mp-vinay-reddy-a2456a210/" target="_blank" rel="noopener noreferrer" style={styles.link}>
                         LinkedIn
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" style={styles.link}>
+                    <a href="https://github.com/mpvreddy" target="_blank" rel="noopener noreferrer" style={styles.link}>
                         GitHub
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={styles.link}>
-                        Twitter
-                    </a>
+                   
                 </div>
             </div>
         </footer>
